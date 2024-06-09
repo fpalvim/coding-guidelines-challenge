@@ -6,9 +6,7 @@ function subtract(x, y) {
   return x - y;
 }
 
-function accumulate(x) {
-  // This function is no longer possible
-}
-
-console.log(add(5, 10));
-console.log(subtract(6, 12));
+const result = add(5, 10);
+console.log(result);
+const accumulate = add(result, 6);
+console.log(subtract(accumulate, 12));
